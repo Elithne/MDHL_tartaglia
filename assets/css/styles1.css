@@ -63,3 +63,17 @@ main {
   position: absolute;
   left: 20%;
 }
+
+.letters {
+  list-style-type: lower-alpha;
+}
+
+#item-special {
+  list-style-type: circle;
+}
+
+table, tr, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: .8em;
+}
