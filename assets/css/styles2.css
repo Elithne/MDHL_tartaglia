@@ -1,1 +1,70 @@
-/*TODAVIA SIN HACER u.u*/
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+.banner {
+  margin-top: 6em;
+  width: 100%;
+}
+
+.title {
+  color: black;
+  position: absolute;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.subtitle {
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+  margin: 0;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 9%;
+}
+
+.main-container {
+  position: relative;
+}
+
+.menu {
+  border-radius: 5px;
+  position: absolute;
+  bottom: 280%;
+  left: 75%;
+}
+
+.menu a {
+  margin-bottom: 10px;
+  border: 2px solid black;
+  color: white;
+  background-color: #4472c4;
+  text-decoration: none;
+  padding: 0 0.6em;
+  box-shadow: 2px 2px 1px 0px rgba(115, 115, 115, 0.75);
+}
+
+main {
+  position: relative;
+  left: 20%;
+}
+
+#selected {
+  background-color: #70ad47;
+}
