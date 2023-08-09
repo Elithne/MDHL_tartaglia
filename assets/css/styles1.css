@@ -5,6 +5,10 @@
   font-family: "Arial", sans-serif;
 }
 
+body{
+  background-color: rgb(206, 206, 206);
+}
+
 header {
   position: relative;
 }
@@ -16,8 +20,14 @@ header {
   object-position: 0% 25%;
 }
 
+figure{
+  display: flex;
+}
+
 .title {
-  color: black;
+  color: #70ad47;
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+             1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
   position: absolute;
   top: 0%;
   left: 5%;
@@ -34,7 +44,7 @@ header {
   width: 200px;
   height: 200px;
   position: absolute;
-  bottom: -15%;
+  top: 30%;
   right: 5%;
 }
 
@@ -132,4 +142,10 @@ td, th{
 .game-info p {
   text-indent: 0;
   margin-top: .8em;
+}
+
+p a{
+  font-weight: bold;
+  color: #5f923e;
+  text-decoration: none;
 }
