@@ -60,21 +60,3 @@ main {
   left: 15%;
   width: 80%;
 }
-
-.letters {
-  list-style-type: lower-alpha;
-}
-
-.no-mark{
-  list-style-type: none;
-}
-
-#item-special {
-  list-style-type: circle;
-}
-
-table, tr, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: .8em;
-}

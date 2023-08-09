@@ -30,12 +30,12 @@
 .logo {
   width: 200px;
   height: 200px;
-  position: absolute;
-  left: 5%;
+  position: absolute; 
 }
 
 .main-info{
   position: absolute;
+  left: 8%;
 }
 
 .menu {
@@ -57,28 +57,11 @@
 
 main {
   position: relative;
-  left: 20%;
+  left: 10%;
   padding: 2em;
   max-width: 80%;
 }
 
 #selected {
   background-color: #70ad47;
-}
-.letters {
-  list-style-type: lower-alpha;
-}
-
-.no-mark{
-  list-style-type: none;
-}
-
-#item-special {
-  list-style-type: circle;
-}
-
-table, tr, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: .8em;
 }
