@@ -1,5 +1,7 @@
-body {
-  margin: 0 auto;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
@@ -7,25 +9,24 @@ header {
   position: relative;
 }
 
-figure {
-  margin: 0;
-}
 .banner {
+  margin-top: 2.5em;
   width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 0% 25%;
 }
 
 .title {
   color: black;
   position: absolute;
-  top: 0%;
-  left: 5%;
-  font-size: 45px;
-}
+  font-style: italic;
+  font-size: 30px;
+}a
 
 .subtitle {
   color: white;
   background-color: black;
-  margin: 0;
   text-align: center;
 }
 
@@ -37,12 +38,14 @@ figure {
   right: 5%;
 }
 
+main {
+  padding: 2em;
+}
 
 .menu {
-  padding: 10px;
+  padding: 1em;
   border-radius: 5px;
-  position: absolute;
-  right: 100%;
+  display: inline-block;
 }
 
 .menu a {
@@ -51,19 +54,18 @@ figure {
   color: black;
 }
 
-main {
-  position: relative;
-  left: 10%;
-  padding: 2em;
+.main-info{
+  padding: 3em 0 0 2em;
+  display: inline-block;
+  width: 80%;
 }
 
-section{
-  position: absolute;
-  left: 2%;
-}
-
-#letters {
+.letters {
   list-style-type: lower-alpha;
+}
+
+.no-mark{
+  list-style-type: none;
 }
 
 #item-special {
