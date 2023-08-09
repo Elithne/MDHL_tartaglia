@@ -36,18 +36,20 @@ figure {
   width: 200px;
   height: 200px;
   position: absolute;
-  left: 9%;
+  left: 5%;
 }
 
-.main-container {
-  position: relative;
+section{
+  position: absolute;
+  left: 2%;
+  top: 5%;
 }
 
 .menu {
   border-radius: 5px;
   position: absolute;
-  bottom: 280%;
-  left: 75%;
+  top: -900%;
+  left: 45%;
 }
 
 .menu a {
@@ -63,6 +65,7 @@ figure {
 main {
   position: relative;
   left: 20%;
+  padding: 2em;
 }
 
 #selected {
