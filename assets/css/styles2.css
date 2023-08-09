@@ -65,6 +65,7 @@ main {
 #selected {
   background-color: #70ad47;
 }
+
 .letters {
   list-style-type: lower-alpha;
 }

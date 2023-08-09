@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: "Arial", sans-serif;
 }
 
 header {
@@ -40,41 +40,96 @@ header {
 
 main {
   padding: 2em;
-  position: relative;
+  display: flex;
+}
+
+p{
+  text-indent: 1em;
 }
 
 .menu {
-  position: absolute;
   padding-top: 3em;
 }
 
 .menu a {
   display: block;
   margin-bottom: 10px;
-  color: black;
+  border: 2px solid black;
+  color: white;
+  background-color: #4472c4;
+  text-decoration: none;
+  padding: .3em 0.6em;
+  text-align: center;
+  box-shadow: 2px 2px 1px 0px rgba(115, 115, 115, 0.75);
+}
+
+#selected {
+  background-color: #70ad47;
 }
 
 .main-info{
-  padding-top: 3em;
-  position: absolute;
+  margin-left: 5em;
   left: 15%;
   width: 80%;
 }
 
+article{
+  margin-top: 1.5em;
+}
+
+article > ol > li{
+  margin-top: 1em;
+}
+
 .letters {
   list-style-type: lower-alpha;
+  margin-left: 1em;
 }
 
 .no-mark{
   list-style-type: none;
+  margin-top: 0;
 }
 
 #item-special {
   list-style-type: circle;
+  margin-left: 1em;
 }
 
 table, tr, th, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-  padding: .8em;
+  padding: .5em;
+  text-align: left;
+}
+
+td, th{
+  padding-left: 5em;
+}
+
+.right-side{
+  text-align: right;
+}
+
+.general-info{
+  display: flex;
+  justify-content: space-between;
+}
+
+.schedule-title{
+  font-style: italic;
+}
+.important{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.game-info{
+  margin-top: 3em;
+}
+
+.questions{
+  padding-top: 2em;
+}
+.game-info p {
+  text-indent: 0;
+  margin-top: .8em;
 }
