@@ -1,12 +1,6 @@
 body {
-  margin: 0;
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-
-.container {
-  width: 80%;
   margin: 0 auto;
-  padding: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 header {
@@ -43,14 +37,12 @@ figure {
   right: 5%;
 }
 
-.main-container {
-  position: relative;
-}
 
 .menu {
   padding: 10px;
   border-radius: 5px;
   position: absolute;
+  right: 100%;
 }
 
 .menu a {
@@ -60,11 +52,17 @@ figure {
 }
 
 main {
-  position: absolute;
-  left: 20%;
+  position: relative;
+  left: 10%;
+  padding: 2em;
 }
 
-.letters {
+section{
+  position: absolute;
+  left: 2%;
+}
+
+#letters {
   list-style-type: lower-alpha;
 }
 
