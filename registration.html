@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <h2>Registration Form</h2>
+        <form action="./show_data.html" method="GET">
+            <fieldset>
+                <label>
+                    <span>Player's First Name: </span>
+                    <input type="text" name="first_name">
+                </label>
+                <label>
+                    <span>Last Name: </span>
+                    <input type="text" name="last_name">
+                </label>
+                <label>
+                    <span>Street Address: </span>
+                    <input type="text" name="address">
+                </label>
+                <label>
+                    <span>Zip Code: </span>
+                    <input type="number" name="zip_code">
+                </label>
+                <label>
+                    <span>Birthday Date: </span>
+                    <input type="date" name="birthday">
+                </label>
+                <label>
+                    <span>Gender: </span>
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+                </label>
+                <label>
+                    <span>Grade: </span>
+                    <input type="radio" name="grade" value="preschool">
+                    <span>Pre-School</span>
+                    <input type="radio" name="grade" value="1st">
+                    <span>1st.</span>
+                    <input type="radio" name="grade" value="2nd">
+                    <span>2nd.</span>
+                    <input type="radio" name="grade" value="3rd">
+                    <span>3rd.</span>
+                    <input type="radio" name="grade" value="4th">
+                    <span>4th.</span>
+                    <input type="radio" name="grade" value="5th">
+                    <span>5th.</span>
+                </label>
+            </fieldset>  
+            <div>
+                <h3>Which elementary school do you live near?</h3>
+                <fieldset>
+                    <legend>Closest school: </legend>
+                    <label>
+                        <input type="radio" name="school" value="aj_katzenmaier">
+                        <span>AJ Katzenmaier</span>
+                        <input type="radio" name="school" value="greenbay">
+                        <span>Greenbay</span>
+                        <input type="radio" name="school" value="howard_a_yeager">
+                        <span>Howard A Yeager</span>
+                        <input type="radio" name="school" value="marjorie_p_hart">
+                        <span>Marjorie P. Hart</span>
+                        <input type="radio" name="school" value="north_elementary">
+                        <span>North Elementary</span>
+                        <input type="radio" name="school" value="south_elementary">
+                        <span>South Elementary</span>
+                    </label>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
