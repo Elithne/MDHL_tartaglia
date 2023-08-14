@@ -7,6 +7,7 @@
 
 body{
   background-color: rgb(206, 206, 206);
+  color:#2c421e
 }
 
 header {
@@ -105,18 +106,25 @@ article > ol > li{
   list-style-type: circle;
   margin-left: 1em;
 }
+table{
+  width: 100%;
+  
+
+}
 
 table, tr, th, td{
-  padding: .5em;
   text-align: left;
+  /* border: 1px solid #000; */
 }
 
 td, th{
-  padding-left: 5em;
+  padding-left: 2em;
 }
 
 .right-side{
   text-align: right;
+  font-weight: bold;
+
 }
 
 .general-info{
@@ -149,40 +157,159 @@ p a{
   color: #5f923e;
   text-decoration: none;
 }
+
 form {
   display: flex;
   flex-direction: column;
+  width: 90%;
+}
+
+fieldset{
+  padding: 1em;
+  margin: 1em 0;
+}
+
+legend{
+  font-weight: bold;
+  font-size: 1.15em;
+  font-style: italic;
+}
+
+.form-option{
+  font-weight: normal;
+}
+
+.name-input, .other-input, .radio-options{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-uniform, .form-school, .form-position{
+  margin: 1em 0;
+  
+}
+
+.form-uniform label, .form-position label{
+  display: block;
+}
+
+.radio-options{
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #5f923e;
+  padding: .8em 1.6em;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
 }
 
 label {
   font-weight: bold;
-  margin-bottom: 8px;
+  margin-bottom: .3em;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-textarea {
-  padding: 10px;
-  margin-bottom: 15px;
+.field-styled {
+  padding: .6em;
+  margin-bottom: .6em;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-textarea {
-  resize: vertical;
+.field-street{
+  width: 85%;
 }
 
-input[type="submit"] {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+.permission-form{
+  display: flex;
+  flex-direction: column;
 }
 
-input[type="submit"]:hover {
-  background-color: #0056b3;
+.permission-form span, .permission-form label{
+  margin-top: .5em;
+}
+
+.form-results tr, .form-results th, .form-results td{
+  text-align: center;
+  padding: .3em 0;
+}
+
+.form-results{
+  margin-top: 2em;
+  width: 40%;
+}
+
+.registration-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+  .title {
+    font-size: 1.5em;
+    left: 2%; 
+  }
+
+  .logo {
+    width: 150px; 
+    height: 150px;
+    top: 20%; 
+    right: 2%; 
+  }
+
+  main {
+    padding: 1em; 
+    display: block; 
+  }
+  h2{
+    text-align: center;
+    margin-bottom: .5em;
+  }
+
+  .name-input, .other-input, .radio-options{
+    flex-wrap: wrap;
+  }
+
+  .main-info{
+    margin: 0 auto;
+  }
+
+  .game-table {
+    overflow-x: auto;
+  }
+
+  .game-table, .game-table td {
+    display: block;
+    padding: 0.2em;
+  }
+
+  .game-header{
+    display: none;
+  }
+
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .right-side{
+    background-color: white;
+  }
+
+  .form-results td{
+    padding: .5em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1080px){
+
+  iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
 }
